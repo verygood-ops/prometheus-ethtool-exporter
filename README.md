@@ -14,6 +14,10 @@ on disk in a .prom file either periodically or just once, and run it from cron o
 
 **_WARNING_**: Since version 0.3.0 Python 3.0+ is required. If you need to use Python2, use the 0.2.6 version.
 
+# Build and Image push
+The build is done with the `build.sh` script and the container image push to the ECR is done manually.
+(We can improve this in the future if we want to.)
+
 # Usage
 ```
 usage: ethtool-exporter.py [-h] (-f TEXTFILE_NAME | -l LISTEN | -p PORT)

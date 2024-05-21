@@ -1,1 +1,0 @@
-prometheus_client==0.14.1 --hash=sha256:5459c427624961076277fdc6dc50540e2bacb98eebde99886e59ec55ed92093a
